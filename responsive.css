@@ -1,11 +1,47 @@
 @media (max-width:500px) {
   
   
+.body {
+
+    display:none;
+  visibility:hidden;
+
+
+}
+  
+  
+.feedback {
+	display:none;
+  visibility:hidden;
+	
+}
+
   
 }
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1000px) {
   
   
+.body {
+
+    display:none;
+  visibility:hidden;
+
+
+}
+.feedback {
+	display:none;
+  visibility:hidden;
+}
+
   
 }
