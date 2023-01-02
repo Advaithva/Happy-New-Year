@@ -1,0 +1,159 @@
+.btn {
+
+    padding:10px;
+    border-radius: 15px;
+    background-color: darkslateblue;
+    color:#eee;
+    box-shadow:#01101b 6px 6px;
+    width:3.5cm;
+    height:2cm;
+    font-size:24px;
+    border:1px solid black;
+    
+
+}
+
+body {
+    background-image:url(https://th.bing.com/th/id/R.0f04dd6702d2604897cb912c70fae159?rik=G0%2fB0tNH7bz%2fMQ&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2017%2f12%2f11%2fnature-backgrounds_123026774_313.jpg&ehk=9Y7zeLvOUFTR4VHUq7om8pUVvKNIPS2GOeda%2bj2a3is%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.btn:hover {
+
+    box-shadow: 6px 6px #053f68;
+    background-color: dodgerblue;
+    color:#000;
+    cursor: pointer;
+
+}
+
+.btn:active {
+
+    box-shadow:none;
+    position:relative;
+    left:6px;
+    top:6px;
+    cursor:progress;
+
+}
+
+.main {
+
+    width:500px;
+    position:fixed;
+    left:0;
+    bottom:1px;
+    top:0;
+    background-image:url(https://th.bing.com/th/id/OIP.VHuRTZ363CDCHNBVeumOIgHaHa?pid=ImgDet&rs=1);
+    background-position:center;
+    background-size:cover;
+    background-blend-mode: lighten;
+    background-color:rgba(255, 255, 255, 0.7);
+    padding:0.5cm;
+    font-size:20px;
+
+}
+
+.body {
+
+    position:fixed;
+    right:0;
+    top:0;
+    padding:0.3cm;
+    width:56%;
+
+
+}
+
+.dt {
+	font-size:20px;
+}
+
+#time {
+	font-size:20px;
+}
+
+.feedback {
+	position:fixed;
+	bottom:0cm;
+	right:0;
+	padding:1cm;
+	background-image:url(https://th.bing.com/th/id/OIP.Jg5Oa--zK5tOKvifGfx5MgHaET?pid=ImgDet&rs=1);
+	background-position:center;
+    	background-size:cover;
+	background-blend-mode: lighten;
+    	background-color:rgba(255, 255, 255, 0.7);
+	display:inline-block;
+}
+
+.nm {
+	height:1cm;
+	border:solid 1px blue;
+	padding:10px;
+	background-color:#ddddff;
+}
+
+.sends:hover {
+	cursor:pointer;
+	background-color:#75aded;
+}
+
+.sends {
+	text-align:right;
+	background-color:#adbcff;
+	font-size:20px;
+	padding:10px;
+	animation-name:btn-animation;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes btn-animation {
+	
+	0% {
+
+		background-color:#adbcff;
+
+	}
+	25% {
+
+		background-color:red;
+
+	}
+	50% {
+
+		background-color:yellow;
+
+	}
+	75% {
+
+		background-color:green;
+
+	}
+	100% {
+
+		background-color:#adbcff;
+
+	}
+
+}
+
+.sends:active {
+	animation:none;
+	cursor:progress;
+}
+
+label  {
+	font-size:24px;
+	color:#024588;
+}
+
+textarea {
+	border-radius:5px;
+	padding:15px;
+	background-color:#ddddff;
+}
+
+.fl {
+	position:relative;
+	top:-1cm;
+}
